@@ -1,0 +1,42 @@
+PODS:
+  - Flutter (1.0.0)
+  - ricoh_theta (0.0.1):
+    - Flutter
+  - theta_client_flutter (1.9.1):
+    - Flutter
+    - THETAClient (= 1.9.1)
+  - THETAClient (1.9.1)
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - ricoh_theta (from `.symlinks/plugins/ricoh_theta/ios`)
+  - theta_client_flutter (from `.symlinks/plugins/theta_client_flutter/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - THETAClient
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  ricoh_theta:
+    :path: ".symlinks/plugins/ricoh_theta/ios"
+  theta_client_flutter:
+    :path: ".symlinks/plugins/theta_client_flutter/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  ricoh_theta: 508d3af2f2f9bc1860d9cbcbf6ed0cfa4561d07f
+  theta_client_flutter: 8c01cf0422f64d5170d696745f0fb6ac5c793996
+  THETAClient: 6e6e3489a01825853f53c73724e3c625966b2e33
+  video_player_avfoundation: 7c6c11d8470e1675df7397027218274b6d2360b3
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.12.0
